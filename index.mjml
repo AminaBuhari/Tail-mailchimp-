@@ -1,7 +1,7 @@
 <mjml>
    <mj-head>
         <mj-attributes>
-        <mj-font name="brown-pro-bold" href="web-assets.sugru.com/assets/lineto-brown-pro-bold-f1a806d084b419ae762b540df6694e724dc2594ab5e656f069983225c4c11196.eot?#iefix"/>
+        <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Mulish&family=Poppins&display=swap"/>
         <mj-class name="blue" color="blue" />
         <mj-class name="h1" font-size="30px" line-height="40px" color="#333333"/>
         <mj-class name="bold" font-weight="700" font-style="normal" />
@@ -24,43 +24,89 @@
         }
         </mj-style>
     </mj-head>
-  <mj-body background-color="#333333" width = "1000px">
+  <mj-body background-color="#fff">
     <mj-raw>
       <!-- Company Header -->
     </mj-raw>
-    <mj-section background-color="#f0f0f0">
+    <mj-section background-color="black">
       <mj-column>
-        <mj-text font-family="Proxima, Helvetica"  font-weight ="400" font-size="16px" align="center" color="#666666" line-height="24px" >Not loading? <a href="#">View Online</a></mj-text>
-      </mj-column>
-    </mj-section>
-     <mj-section background-color="#f4dedf">
-      <mj-column>
-         <mj-text font-family="Proxima, sans-serif"  padding="0 100px" font-weight ="400" font-size="16px" align="center" color="#666666" line-height="24px" >Loreum ipsum dolor sit amet, consectetur <a href="#">Go</a></mj-text>
+        <mj-text font-family="Poppins, Helvetica"  font-weight ="400" font-size="16px" align="center" color="black" line-height="24px" >Not loading? <a href="#">View Online</a></mj-text>
       </mj-column>
     </mj-section>
     <mj-raw>
       <!-- Body -->
     </mj-raw>
-    <mj-section background-color="#d3e9f1" padding="0px">
-      <mj-column width="600px">
-        <mj-image width= "300px" padding = "0px" src="https://web-assets.sugru.com/asset/upload/856/Copy_of_Sugru-by-tesa-logo.png" alt="logo" />
-        <mj-text align="center" color="#333333" font-size = "20px" font-family="brown-pro-bold, Helvetica"><h1>30px BrownPro 40px line height</h1></mj-text>
-        <mj-text align="center" color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px"><p>Proxima nova #333333 16px with 24px line height. <br> Fallback font: Helvetica/Arial</p></mj-text>
-        <mj-button background-color="#cf0000" border-radius="40px" inner-padding="0 10px" height="50px" width="160px" font-size="18px" color="#ffffff">CTA title</mj-button>
-      </mj-column>
+    <mj-section background-color="#fff" padding="0px">
+      <mj-group>
+        <mj-column padding-top="90px">
+          <mj-text align="center" color="#333333" font-size = "17px" font-weight ="700" font-family="Poppins, sans-serif"><p>Cash reimagined</p></mj-text>
+          <mj-text align="center" padding-top = "0px" color="#2774AE" font-size = "29px" font-weight ="700" font-family="Poppins, sans-serif"><p>Our way</p></mj-text>
+        </mj-column>
+         <mj-column padding-top="30px">
+          <mj-image width="220px" padding="0" src="https://i.ibb.co/KhVT6GH/asset-1.png" />
+        </mj-column>
+      </mj-group>
     </mj-section>
-    <mj-hero height="400px" background-color="#333333">
-    </mj-hero>
+  
     <mj-raw>   <!-- section A -->
     </mj-raw>
-     <mj-section background-color="#f1f1f1" padding="0px">
-      <mj-column width="600px">
-        <mj-text align="center" color="#333333" font-size = "20px" font-family="brown-pro-bold, Helvetica"><h1>Headline goes here</h1></mj-text>
-        <mj-text align="center" color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus.
-          Sed eget nulla elit. Nulla aliquet mollis faucibus</p></mj-text>
-        <mj-button background-color="#cf0000" border-radius="40px" inner-padding="0 10px" height="50px" width="160px"  padding ="30px 0" font-size="18px" color="#ffffff">CTA title</mj-button>
-         <mj-divider border-width="2px" border-style="solid" border-color="lightgrey" padding-bottom="20px" />
+     <mj-section background-color="#fff" padding="0px">
+      <mj-column padding="30px" width="500px">
+        <mj-text align="justify" color="#333333" font-size = "14px" font-family="sans" line-height="19px"><p text-align="justify">We're excited to welcome you to our Tail community! Start earning cashback when you make a purchase at any of our particitipating retailers, it's that simple!</p></mj-text>
+
+      </mj-column>
+      <mj-column width="500px">
+        <mj-text align="center" color="#2774AE" font-weight="600" font-size = "16px" font-family="Poppins, sans-serif" line-height="19px"><p padding-top="50px" text-align="justify">Here's how it works</p></mj-text>
       </mj-column>
     </mj-section> 
+    <mj-section padding="0px 50px 0px 0px">
+ 
+      <mj-group>
+      <mj-column padding-top="30px" width="30%">
+          <mj-image width="100px" padding="0" src="https://i.ibb.co/zfHd5Kn/asset-2.png" />
+        </mj-column>
+      <mj-column padding-top="60px" width="70%" padding-left="30px" >
+          <mj-text align="justify" color="#333333" font-size = "15px" font-weight ="700" font-family="Poppins, sans-serif"><p>1. Get the App</p></mj-text>
+          <mj-text align="justify" padding-top="0" color="#333333" line-height="19px" font-size = "14px" font-family="sans"><p>Download in the App store or the Google Play Store</p></mj-text>
+        </mj-column>
+         
+        
+      </mj-group>
+    </mj-section>
+    <mj-section padding="0px 50px 0px 50px">
+
+      <mj-group>
+      <mj-column padding-top="60px" width="70%" padding-left="0px" >
+          <mj-text align="justify" color="#333333" font-size = "15px" font-weight ="700" font-family="Poppins, sans-serif"><p>2. Link your cards</p></mj-text>
+          <mj-text align="justify" padding-top="0" color="#333333" line-height="19px" font-size = "14px" font-family="sans"><p>Add your Monzo or Starling Card</p></mj-text>
+        </mj-column>
+         <mj-column padding-top="30px" width="30%">
+          <mj-image width="100px" padding="0" src="https://i.ibb.co/zfHd5Kn/asset-2.png" />
+        </mj-column>
+        
+      </mj-group>
+    </mj-section>
+    <mj-section padding="0px 50px 0px 50px">
+ 
+      <mj-group>
+      <mj-column padding-top="30px" width="30%">
+          <mj-image width="100px" padding="0" src="https://i.ibb.co/zfHd5Kn/asset-2.png" />
+        </mj-column>
+      <mj-column padding-top="60px" width="70%" padding-left="30px" >
+          <mj-text align="justify" color="#333333" font-size = "15px" font-weight ="700" font-family="Poppins, sans-serif"><p>3. Start Spending</p></mj-text>
+          <mj-text align="justify" padding-top="0" color="#333333" line-height="19px" font-size = "14px" font-family="sans"><p>Earn cashbacks on all your purchases</p></mj-text>
+        </mj-column>
+         
+        
+      </mj-group>
+    </mj-section>
+    <mj-section padding="30px">
+     <mj-column>
+          <mj-text align="justify" color="#333333" font-size = "15px" font-weight ="700" font-family="Poppins, sans-serif"><p>Don't miss out on great offers</p></mj-text>
+          <mj-text align="justify" padding-top="0" color="#333333" line-height="19px" font-size = "14px" font-family="sans"><p>We're continously growing our cashback offers, from hotels to eat-outs, we've got you covered.</p></mj-text>
+          <mj-button background-color="#cf0000" align="left" border-radius="40px" inner-padding="0 10px" height="50px" width="160px"  padding ="30px 0" font-size="18px" color="#ffffff">CTA title</mj-button>
+         <mj-divider border-width="2px" border-style="solid" border-color="lightgrey" padding-bottom="20px" />
+        </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
