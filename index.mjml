@@ -1,0 +1,66 @@
+<mjml>
+   <mj-head>
+        <mj-attributes>
+        <mj-font name="brown-pro-bold" href="web-assets.sugru.com/assets/lineto-brown-pro-bold-f1a806d084b419ae762b540df6694e724dc2594ab5e656f069983225c4c11196.eot?#iefix"/>
+        <mj-class name="blue" color="blue" />
+        <mj-class name="h1" font-size="30px" line-height="40px" color="#333333"/>
+        <mj-class name="bold" font-weight="700" font-style="normal" />
+        </mj-attributes>
+        <mj-style inline="inline">
+        
+        mj-button {
+            height: 50px;
+            inner-padding: 10px;
+            min-width: 160px;
+        }
+
+        p {
+            margin: 0;
+        }
+        a {
+            font-weight: 700 !important;
+            text-decoration: underline !important;
+            color: #333333;
+        }
+        </mj-style>
+    </mj-head>
+  <mj-body background-color="#333333" width = "1000px">
+    <mj-raw>
+      <!-- Company Header -->
+    </mj-raw>
+    <mj-section background-color="#f0f0f0">
+      <mj-column>
+        <mj-text font-family="Proxima, Helvetica"  font-weight ="400" font-size="16px" align="center" color="#666666" line-height="24px" >Not loading? <a href="#">View Online</a></mj-text>
+      </mj-column>
+    </mj-section>
+     <mj-section background-color="#f4dedf">
+      <mj-column>
+         <mj-text font-family="Proxima, sans-serif"  padding="0 100px" font-weight ="400" font-size="16px" align="center" color="#666666" line-height="24px" >Loreum ipsum dolor sit amet, consectetur <a href="#">Go</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Body -->
+    </mj-raw>
+    <mj-section background-color="#d3e9f1" padding="0px">
+      <mj-column width="600px">
+        <mj-image width= "300px" padding = "0px" src="https://web-assets.sugru.com/asset/upload/856/Copy_of_Sugru-by-tesa-logo.png" alt="logo" />
+        <mj-text align="center" color="#333333" font-size = "20px" font-family="brown-pro-bold, Helvetica"><h1>30px BrownPro 40px line height</h1></mj-text>
+        <mj-text align="center" color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px"><p>Proxima nova #333333 16px with 24px line height. <br> Fallback font: Helvetica/Arial</p></mj-text>
+        <mj-button background-color="#cf0000" border-radius="40px" inner-padding="0 10px" height="50px" width="160px" font-size="18px" color="#ffffff">CTA title</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-hero height="400px" background-color="#333333">
+    </mj-hero>
+    <mj-raw>   <!-- section A -->
+    </mj-raw>
+     <mj-section background-color="#f1f1f1" padding="0px">
+      <mj-column width="600px">
+        <mj-text align="center" color="#333333" font-size = "20px" font-family="brown-pro-bold, Helvetica"><h1>Headline goes here</h1></mj-text>
+        <mj-text align="center" color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus.
+          Sed eget nulla elit. Nulla aliquet mollis faucibus</p></mj-text>
+        <mj-button background-color="#cf0000" border-radius="40px" inner-padding="0 10px" height="50px" width="160px"  padding ="30px 0" font-size="18px" color="#ffffff">CTA title</mj-button>
+         <mj-divider border-width="2px" border-style="solid" border-color="lightgrey" padding-bottom="20px" />
+      </mj-column>
+    </mj-section> 
+  </mj-body>
+</mjml>
