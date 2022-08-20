@@ -29,8 +29,8 @@
       <!-- Company Header -->
     </mj-raw>
     <mj-section background-color="black">
-      <mj-column>
-        <mj-text font-family="Poppins, Helvetica"  font-weight ="400" font-size="16px" align="center" color="black" line-height="24px" >Not loading? <a href="#">View Online</a></mj-text>
+      <mj-column >
+      <mj-image width="70px" padding="0" src=" https://i.ibb.co/pzBYmCn/Logo.png"  align="left" padding-left="10px"/>
       </mj-column>
     </mj-section>
     <mj-raw>
@@ -39,7 +39,7 @@
     <mj-section background-color="#fff" padding="0px">
       <mj-group>
         <mj-column padding-top="90px">
-          <mj-text align="center" color="#333333" font-size = "17px" font-weight ="700" font-family="Poppins, sans-serif"><p>Cash reimagined</p></mj-text>
+          <mj-text align="justify" color="#333333" font-size = "19px" font-weight ="700" font-family="Poppins, sans-serif"><p>Cash reimagined</p></mj-text>
           <mj-text align="center" padding-top = "0px" color="#2774AE" font-size = "29px" font-weight ="700" font-family="Poppins, sans-serif"><p>Our way</p></mj-text>
         </mj-column>
          <mj-column padding-top="30px">
@@ -59,7 +59,7 @@
         <mj-text align="center" color="#2774AE" font-weight="600" font-size = "16px" font-family="Poppins, sans-serif" line-height="19px"><p padding-top="50px" text-align="justify">Here's how it works</p></mj-text>
       </mj-column>
     </mj-section> 
-    <mj-section padding="0px 50px 0px 0px">
+    <mj-section padding="0px 50px 0px 50px">
  
       <mj-group>
       <mj-column padding-top="30px" width="30%">
@@ -67,7 +67,7 @@
         </mj-column>
       <mj-column padding-top="60px" width="70%" padding-left="30px" >
           <mj-text align="justify" color="#333333" font-size = "15px" font-weight ="700" font-family="Poppins, sans-serif"><p>1. Get the App</p></mj-text>
-          <mj-text align="justify" padding-top="0" color="#333333" line-height="19px" font-size = "14px" font-family="sans"><p>Download in the App store or the Google Play Store</p></mj-text>
+          <mj-text align="justify" padding-top="0" color="#333333" line-height="19px" font-size = "14px" font-family="sans"><p>Earn cashbacks on all your purchases</p></mj-text>
         </mj-column>
          
         
@@ -104,9 +104,66 @@
      <mj-column>
           <mj-text align="justify" color="#333333" font-size = "15px" font-weight ="700" font-family="Poppins, sans-serif"><p>Don't miss out on great offers</p></mj-text>
           <mj-text align="justify" padding-top="0" color="#333333" line-height="19px" font-size = "14px" font-family="sans"><p>We're continously growing our cashback offers, from hotels to eat-outs, we've got you covered.</p></mj-text>
-          <mj-button background-color="#cf0000" align="left" border-radius="40px" inner-padding="0 10px" height="50px" width="160px"  padding ="30px 0" font-size="18px" color="#ffffff">CTA title</mj-button>
-         <mj-divider border-width="2px" border-style="solid" border-color="lightgrey" padding-bottom="20px" />
+          <mj-button background-color="#2774AE" align="left" padding-left="20px" border-radius="5px" inner-padding="0 10px" height="33px" width="130px"  padding ="30px 0" font-size="16px" color="#ffffff">View offers</mj-button>
+         
         </mj-column>
+
+    </mj-section>
+    <mj-section background-color="#E4E4E4" padding="30px">
+    <mj-column padding-top="30px" width="500px" >
+          <mj-image width="500px" padding="0" src= "https://i.ibb.co/rszDbK1/asset-3.png" />
+           <mj-button background-color="#2774AE" align="left" padding-left="40px" border-radius="5px" inner-padding="0 10px" height="33px" width="130px"  font-size="16px" color="#ffffff">Learn more</mj-button>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#333">
+      <mj-group>
+        <mj-column>
+          <mj-image alt="facebook" href="#" width="40px" src="https://i.ibb.co/KFDQKr7/facebook.png"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-image alt="twitter" href="#" width="40px" src="https://i.ibb.co/ScLm0yG/twitter-2.png"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-image alt="instagram" href="#" width="40px" src="https://i.ibb.co/cDby4rr/instagram.png"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-image alt="linkedin" href="#" width="40px" src="https://i.ibb.co/1n3j1J2/linkedin.png"></mj-image>
+        </mj-column>
+      </mj-group>
+
+       
+    </mj-section>
+    <mj-section background-color="#333">
+    <mj-column>
+    <mj-divider border-width=".5px" border-style="solid" border-color="lightgrey" padding-bottom="20px" />
+    </mj-column>
+    <mj-column>
+     <mj-text align="center" color="#fff" font-size = "14px" font-family="sans" line-height="19px"><p text-align="justify">Download or latest app, because who doesn't love saving money</p></mj-text>
+    
+    </mj-column>
+    
+    </mj-section>
+
+    <mj-section  background-color="#333">
+    <mj-group>
+        <mj-column>
+          <mj-image alt="play store" href="#" width="100px" src="https://i.ibb.co/4R056Zk/google-play.png"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-image alt="app store" href="#" width="100px" src="https://i.ibb.co/fMv0f5p/App-store.png"></mj-image>
+        </mj-column>
+      </mj-group>
+    
+    </mj-section>
+      <mj-section background-color="#333">
+    <mj-column>
+     <mj-text align="center" color="#fff" font-size = "14px" font-family="sans" line-height="19px"><p text-align="justify">Copyright 2022 Tail Offers Ltd. All rights reserved <br> Tail Offers Ltd is registered with the Financial Conduct Authority under the Payment Services Regulations 2017 as am account information services provider (FRN: 791697).</p></mj-text>
+     <mj-text align="center" color="#fff" font-size = "14px" font-family="sans" line-height="19px"><p text-align="justify">Our mailing address is: contact@tail.cash</p></mj-text>
+
+       <mj-text align="center" color="#fff" font-size = "14px" font-family="sans" line-height="19px"><p text-align="justify">Want to change how you receive these emails? <br> You can <a href="#" color="#fff">upgrade your preferences</a> or <a href="#" color="#fff">upsubscribe from this list</a></p></mj-text>
+    
+    </mj-column>
+    
     </mj-section>
   </mj-body>
 </mjml>
