@@ -11,7 +11,7 @@
           
     	  }
          
-        body {
+        body, p {
           font-family: "Arial";
         }
 
@@ -36,16 +36,47 @@
         }
 
          .group2 p { 
-          padding-top: 30px !important
+          padding-top: 30px !important;
           
            
         }
+
+         .assets img {
+          width: 70% !important; 
+          padding: 0px 65px; 
+        }
+
+      
+       
+       .buuton1  p{
+         font-size: 12px !important;
+         width: 100px; 
+         height: 15px !important;
+        
+        }
+
+      .icon img {
+        padding: 0px !important;
+       }
+
+       .img-icon img {
+        width: 100px !important; 
+          margin: auto !important;
+       }
+
+       
 
     
 
         
       }
         @media (max-width:480px) { 
+          
+       .img-icon img {
+        width: 80px !important; 
+        margin: auto !important;
+        
+       }
           
         .group { 
           width: 30% !important; 
@@ -58,7 +89,8 @@
          body {
           font-family: "Arial";
         }
-       
+
+     
        
          .group7 { 
           width: 60% !important; 
@@ -72,6 +104,14 @@
           
           height: 100px !important;
         }
+
+        .icon1  {
+          padding: 0px 30px !important;
+        }
+       
+       .icon img {
+        width: 100px  !important; 
+       }
 
 
 
@@ -92,79 +132,156 @@
     <mj-raw>
       <!-- Body -->
     </mj-raw>
-    <mj-section background-color="#fff" padding="0px">
-      <mj-group width="500px">
-        <mj-column padding-top="60px">
-          <mj-text align="justify" color="#333333" font-family= "Arial" font-size = "18px" font-weight ="700" font-family="Arial" padding-bottom ="0px"><p class="head1">Cash reimagined</p><p style="color:#126c8f; font-size: 29px !important" >Our way</p></mj-text>
+   <mj-section background-color="#15243B">
+   <mj-column>
+   <mj-image width="150px" padding="0" src="https://i.ibb.co/RPYVfMb/Artboard-1-2x-1.png"  align="center" padding-left="10px"/>
+    <mj-text css-class="title"  font-weight="700" align="center" color="#fff" font-size = "16px" font-family="Arial" line-height="19px"><p text-align="left">Act now to keep recieving cashback<br>...it takes just 30 seconds </p></mj-text>
+   </mj-column>
+   </mj-section>
+    <mj-raw>   <!-- section A -->
+    </mj-raw>
+      <mj-section background-color="#Fff" padding="10px 0px 0 0px" css-class="group1"> 
+     <mj-column>
+       <mj-text css-class="title"  font-weight="500" align="left" color="#000" font-size = "12px" font-family="Arial" line-height="19px"><p text-align="left" padding="0px 0px 0px 0px">If you wish to continue casbacks while you shop all you need to do is re-consent in the app. We are required to ask you this every 90 days </p></mj-text>
+    </mj-column>
+    </mj-section>
+
+    <mj-section  padding="0px">
+      <mj-column>
+
+        <mj-image  padding="0" src="https://user-images.githubusercontent.com/66526480/190205926-4e1991a9-7575-48af-9128-b890dc72b083.gif"  align="center" />
+      </mj-column>
+      
+    </mj-section> 
+
+    
+    <mj-raw>   <!-- section C -->
+    </mj-raw>
+  
+    <mj-section background-color="#fff" padding="15px 0px 0 0px" css-class="group1"> 
+     <mj-column>
+       <mj-button padding = "0px 0px 15px 0px" width="120px" font-weight="700" inner-padding="7px 20px" border-radius="5px" font-size="12px" align="center" background-color="#126c8f"  css-class="buuton1">View Offers</mj-button>
+    </mj-column>
+    </mj-section>
+     <mj-raw>   <!-- section C -->
+    </mj-raw>
+  
+    <mj-section background-color="#ffffff" padding="10px 0px 0px 10px"> 
+
+
+      <mj-column background-color="#000" padding="0px" width="100%" border-left="12px solid #126c8f">
+       <mj-text  font-weight="700" padding="0px 0px 0px 5px" align="left" color="#fff"font-size = "14px" font-family="Arial" line-height="2px"><p style="padding: 0px">Don't forget we offer... </p></mj-text>
+      </mj-column>
+    </mj-section>
+
+     <mj-section>
+      <mj-group>
+        <mj-column>
+          <mj-image padding="0"  css-class="img-icon"  src="https://i.ibb.co/9NbJ3cV/Artboard-1-copy-2x.png" />
+          <mj-text align="center" padding="0"  >
+            <p>Personalized <br> casbacks offers</p>
+          </mj-text>
         </mj-column>
-         <mj-column padding-top="30px">
-          <mj-image width="220px"  src="https://i.ibb.co/KhVT6GH/asset-1.png" />
+        <mj-column>
+          <mj-image css-class="img-icon"  padding="0" src="https://i.ibb.co/1ZJMqpk/Artboard-1-copy-2-2x.png" />
+          <mj-text align="center" padding="0" >
+          
+            <p>Competitions and give aways</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image  css-class="img-icon"  padding="0" src="https://i.ibb.co/523twvn/Artboard-1-copy-3-2x-1.png" />
+          <mj-text align="center" padding="0">
+           
+            <p>Cashback directly <br> to your bank account</p>
+          </mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-raw>   <!-- section A -->
-    </mj-raw>
-    <mj-section background-color="#126c8f" padding="0px">
-      <mj-column>
-        <mj-text css-class="title" padding = "0px 50px 0px 50px" color="#fff" font-size = "12px" font-family="Arial" line-height="19px"><p text-align="left">It's been a week since you joined Tail!<br>We want to ensure your cashback journey goes smoothly. <br> If you have any questions, big or small, you can always reach us directly at care@tail.cash </p></mj-text>
+
+    <mj-section padding="0px 0px 10px 0px">
+      <mj-group>
+        <mj-column>
+          <mj-image  css-class="img-icon"  padding="0"    src="https://i.ibb.co/qDZ1yrY/Artboard-1-copy-4-2x.png" />
+          <mj-text align="center" padding="0"  >
+            <p>No discount <br> codes</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image  css-class="img-icon"  padding="0" src="https://i.ibb.co/BVKVtBz/Artboard-1-copy-5-2x-1.png" />
+          <mj-text align="center" padding="0" >
+          
+            <p>New retailers <br> added weekly</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image  css-class="img-icon"  padding="0" src="https://i.ibb.co/2YdZ1V9/Artboard-1-copy-6-2x-2.png" />
+          <mj-text align="center" padding="0">
+           
+            <p>Savings of  <br> upto 50%</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    
+
+  
+
+     <mj-section background-color="#333333" padding-bottom="0px">
+      <mj-column padding-bottom="0px">
+        <mj-social font-size="15px" icon-size="40px" mode="horizontal" padding-bottom="0px">
+         <mj-social-element  src="https://i.ibb.co/KFDQKr7/facebook.png" href="https://www.facebook.com/tailoffers/">
+          </mj-social-element>
+          <mj-social-element   src="https://i.ibb.co/ScLm0yG/twitter-2.png" href="https://i.ibb.co/ScLm0yG/twitter-2.png">
+      
+          </mj-social-element>
+          <mj-social-element src="https://i.ibb.co/cDby4rr/instagram.png" href="https://www.instagram.com/tail_offers/" >
+       
+          </mj-social-element>
+          <mj-social-element  src="https://i.ibb.co/1n3j1J2/linkedin.png"  href="https://www.linkedin.com/company/tail/">
+          </mj-social-element>
+        </mj-social>
       </mj-column>
       
-    </mj-section> 
+    </mj-section>
 
-    <mj-raw>   <!-- section B -->
-    </mj-raw>
-    <mj-section padding="0px">
-    <mj-column padding="0px">
-    <mj-text align="center" padding="0px" font-weight="600" font-family="Arial" font-size="16px" color="#126c8f"><p style="padding:0px">  How it works</p></mj-text> 
+    
+    <mj-section background-color="#333333"  padding="0px">
+     <mj-column padding="0px">
+       <mj-divider padding="20px 0px" border-width="1px" border-style="solid" border-color="lightgrey" />
     </mj-column>
     </mj-section>
 
-    <mj-raw>   <!-- section C -->
-    </mj-raw>
-    <mj-section padding="0 50px 0 50px" css-class="group1"> 
-    <mj-group>
-    <mj-column padding="0px"  css-class="group">
-    <mj-image src=" https://i.ibb.co/vBY919P/Artboard-1.png" padding="0px 20px 0px 0px" alt="asset 1" width="100px" css-class="group4" align="left"/> 
+   
+    <mj-section background-color="#333333"  padding="0px">
+     <mj-column padding="0px">
+      <mj-text css-class="title" color="white" font-size = "12px" font-family="Arial" line-height="19px" align="center"><p style="padding:0px">Download our latest app, because who doesn't love saving money </p></mj-text>
     </mj-column>
-    <mj-column  padding="0px"  css-class="group2">
-    <mj-text padding="0px"><p style="padding: 0px; font-family: Arial; line-height: 18px;"><strong style="font-size: 14px">1. Browse our offers on the app</strong><br style="font-size: 12px"> Search for your favourite retailers</p></mj-text>
-    </mj-column>
-
-    </mj-group>
     </mj-section>
 
-    <mj-section padding="10px 50px 0 50px" css-class="group1"> 
-    <mj-group>
-    <mj-column  padding="0px"  css-class="group7">
-    <mj-text padding="0px" ><p style="padding: 0px 0px 0px 0px; font-family: Arial; line-height: 18px;"><strong style="font-size: 14px">2. Pay by card</strong><br style="font-size: 12px"> Shop at our participating retailers with our linked Monzo with our Starling card.</p></mj-text>
-    </mj-column>
-      <mj-column padding="0px"  css-class="group6">
-    <mj-image src="https://i.ibb.co/wzcz0HS/Artboard-1-copy.png" padding="0px 0px 0px 10px" alt="asset 1" width="140px" css-class="group6" align="right"/> 
-    </mj-column>
-
-    </mj-group>
-    </mj-section>
-    <mj-section padding="10px 50px 0 50px" css-class="group1"> 
-    <mj-group>
-    <mj-column padding="0px"  css-class="group">
-    <mj-image src="https://i.ibb.co/chTmZCL/Artboard-1-copy-2.png" padding="0px 20px 0px 0px" alt="asset 1" width="100px" css-class="group4" align="left"/> 
-    </mj-column>
-    <mj-column  padding="0px"  css-class="group2">
-    <mj-text padding="0px"><p style="padding: 15px 0px 0px 0px; font-family: Arial; line-height: 18px;"><strong style="font-size: 14px">3. Enjoy quick cash back</strong><br style="font-size: 14px">Cashback is paid directly into your bank account from 7 to 28days</p></mj-text>
-    </mj-column>
-
-    </mj-group>
-    </mj-section>
-
-     <mj-raw>   <!-- section D -->
-    </mj-raw>
-    <mj-section background-color="#fff" padding="20px 0px 0px 0px">
-      <mj-column>
-        <mj-text css-class="title" padding = "0px 50px 0px 50px" color="#333333"  font-family="Arial" line-height="19px"><p text-align="left"><strong style="font-size: 14px">Don't miss out on great offers</strong><br style="font-size: 14px">We're continously growing on cashback offers, from hotels to cash-out, we've got you covered</p></mj-text>
-        <mj-button padding = "0px 50px 20px 50px" width="120px" font-weight="700" inner-padding="7px 20px" border-radius="5px" font-size="12px" align="left" background-color="#126c8f">View Offers</mj-button>
+     <mj-section background-color="#333333" padding="0px">
+      <mj-column padding="0px" >
+        <mj-social font-size="10px" icon-size="130px" mode="horizontal" vertical-align="top" padding="0px">
+         <mj-social-element src="https://i.ibb.co/4R056Zk/google-play.png" href="https://play.google.com/store/apps/details?id=at.tail.app&hl=en&gl=US" >
+          </mj-social-element>
+          <mj-social-element   src="https://i.ibb.co/fMv0f5p/App-store.png"   href="https://apps.apple.com/gb/app/tail-the-cashback-app/id1220787992" >
+      
+          </mj-social-element>
+       
+        </mj-social>
       </mj-column>
       
-    </mj-section> 
+    </mj-section>
+
+       <mj-section background-color="#333333"  padding="0px">
+     <mj-column padding="0px">
+      <mj-text css-class="title" color="white" font-size = "12px" font-family="Arial" line-height="19px" align="center"><p style="padding:0px">Copyright 2022 Tail Offers Ltd. All rights reserved <br> Tail Offers Ltd is registered with the Financial Conduct Authority under the Payment Services Regulations 2017 as an account information services provider (FRN: 791697).Tail is registered in England and Wales (No.10008580) with its registered address at 15 Belgrave Square, London SW1X 8PS </p></mj-text>
+      <mj-text css-class="title" color="white" font-size = "12px" font-family="Arial" line-height="19px" align="center" padding="0px"><p style="padding:0px">Our mailing address is: contact@tail.cash</p></mj-text>
+      <mj-text css-class="title" color="white" font-size = "12px" font-family="Arial" line-height="19px" align="center" padding="0px 0px 10px 0px"> <p text-align="justify" style="margin: 0;">Want to change how you receive these emails? <br> You can <a href="#" color="#fff" style="color: #fff; font-weight: 700; text-decoration: underline;">upgrade your preferences</a> or <a href="#" color="#fff" style="color: #fff; font-weight: 700; text-decoration: underline;">unsubscribe from this list</a></p></mj-text>
+    </mj-column>
+    </mj-section>
+
+
 
   </mj-body>
 </mjml>
